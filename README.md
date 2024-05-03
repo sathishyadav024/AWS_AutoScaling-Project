@@ -3,9 +3,13 @@ The project is implemented to ensure the consistent availability of  the applica
 
 # REQUIREMENTS:
 1. AWS Account :
+
  a. Launch Template
+
  b. Elastic Loadbalancer
+
  c. Target-group
+
  d. Elastic Autoscaling
  
  # Introduction:
@@ -26,6 +30,7 @@ Autoscaling is a crucial feature provided by AWS that automatically adjusts the 
 # Integration and Configuration:
 Integrating autoscaling with load balancing in AWS involves configuring autoscaling groups and attaching them to the load balancer. This ensures that new instances launched by autoscaling are automatically registered with the load balancer, seamlessly expanding the capacity of our application to handle increased traffic.
 
-# Creation of Launch Template
+# Creation of Launch Templates:
+Enter the name of the launch template
 
 ![alt text](<Screenshot 2024-04-29 195351.png>)
