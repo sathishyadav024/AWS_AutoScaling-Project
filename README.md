@@ -30,7 +30,7 @@ Autoscaling is a crucial feature provided by AWS that automatically adjusts the 
 # Integration and Configuration:
 Integrating autoscaling with load balancing in AWS involves configuring autoscaling groups and attaching them to the load balancer. This ensures that new instances launched by autoscaling are automatically registered with the load balancer, seamlessly expanding the capacity of our application to handle increased traffic.
 
-# Creation of Launch Templates:
+# Creation of Launch Template:
 Enter the name of the launch template.
 
 Enter the description as the purpose of creation of launch tempalate
@@ -57,6 +57,7 @@ The launch template is created successfully.
 
 ![alt text](<Screenshot 2024-04-29 195727.png>)
 
+# Ceation of Target-Group:
 Create a Target-Group.
 
 ![alt text](<Screenshot 2024-04-29 200156.png>)
@@ -75,10 +76,11 @@ Enter the path of the health checkuo here i used : /health
 
 ![alt text](<Screenshot 2024-04-29 200249.png>)
 
-The load balancer is created successfully.
+The Target-Group is created successfully.
 
 ![alt text](<Screenshot 2024-04-29 200326.png>)
 
+# Creation of LoadBalancer
 Select the Application Loadbalancer.
 
 ![alt text](<Screenshot 2024-04-29 195801.png>)
@@ -105,7 +107,7 @@ Load-balancer is created successfully.
 
 ![alt text](<Screenshot 2024-04-29 201621.png>)
 
-# Auto-Scaling:
+# Creation of Auto-Scaling:
 
 Select the launch template.
 
